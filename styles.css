@@ -1,34 +1,35 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
+}
+
+body {
   font-family: Arial, sans-serif;
   background: white;
   color: #111;
-}
 
-/* ZENTRIERUNG (horizontal + vertikal) */
-body {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertikal */
+
   text-align: center;
 }
 
-/* CONTAINER */
+/* Container */
 .container {
-  padding: 20px;
   max-width: 900px;
+  padding: 20px;
 }
 
-/* LOGO – jetzt deutlich größer + responsiv */
+/* Logo */
 .logo {
-  width: 1024px;
+  width: 420px;
   max-width: 90%;
   height: auto;
   margin-bottom: 30px;
 }
 
-/* TEXT */
+/* Text */
 h1 {
   font-size: 3.2rem;
   margin: 0 0 14px;
